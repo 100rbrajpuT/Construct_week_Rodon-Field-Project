@@ -1,0 +1,91 @@
+.nav{
+   display: flex;
+  justify-content: space-between;
+  margin: 10px 50px;
+}
+#nav1 > a1 a2 a2{
+  
+  font-size: 25px;
+}
+#nav1 {
+    margin-top: 200px;
+    font-size: 25px;
+}
+   .fetch{
+    padding: 30px 25% 0px;
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+   width: 60%;
+    height: 50px;
+      }
+   .fetch>a{
+    margin-left: 10px;
+   color: hsl(0,0%,37%);
+   text-decoration: none;
+   text-transform: uppercase;
+   }
+   .main{
+        text-align: center;
+   }
+   #head{
+       
+       color: hsl(0,0%,37%);
+   }
+  .main>p{
+      margin-left: 20%;
+      font-size: 25px;
+      width: 60%;
+      text-align: center;
+
+  }
+.pictures{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+} 
+
+.pictures>div>h4{
+    font-size: 25px;
+    color: hsl(0,0%,37%);
+    font-size: 2px;
+    
+}
+button{
+    width: 60%;
+    height: 50px;
+    font-size: 16px;
+    color: hsl(0,0%,37%);
+   
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    
+}
+.f1{
+    margin-left: 35px;
+   
+    color: hsl(0,0%,37%);
+    text-decoration: none;
+}
+.f2{
+    margin-left: 200px;
+ 
+}
+.f3{
+    margin-left: 150px;
+    font-size: 28px;
+}
+p{
+   
+     color: hsl(0,0%,37%);
+}
+.f1>a{
+    text-decoration: none;
+    
+}
+.f2>a{
+    text-decoration: none;
+    
+}

@@ -1,0 +1,158 @@
+.nav{
+    display: flex;
+   justify-content: space-between;
+   margin: 10px 50px;
+ }
+ #nav1 > a1 a2 a2{
+   
+   font-size: 25px;
+ }
+ #nav1 {
+     margin-top: 200px;
+     font-size: 25px;
+ }
+    .fetch{
+     padding: 30px 25% 0px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    width: 60%;
+     height: 50px;
+       }
+    .fetch>a{
+     margin-left: 10px;
+    color: hsl(0,0%,37%);
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+
+    .pics{
+      
+        height: 550px;
+        display: flex;
+        background-color: rgba(182, 199, 202, 0.822);
+    }
+    .pics1{
+        width: 50%;
+      
+        height: 548px;
+    }
+    .pics1>p{
+    font-size: 35px;
+    text-align: justify;
+    color: #222;
+    margin-top: 90px;
+    margin-bottom: 24px;
+    width: 38%;
+   
+    margin-left: 100px;
+    }
+    #para{
+        font-size: 17px;
+    }
+    .pics1>button{
+        width:38% ;
+        height: 42px;
+    margin-left: 100px;
+ }
+#picss11{
+    width: 40%;
+}
+.sec{
+   
+    width: 95%;
+    height: 550px;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 2%;
+}
+.flex{
+    display: flex;
+    margin-top: 30px;
+
+}
+.one{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    color: hsl(0,0%,37%);
+}
+.one>a{
+    color: black;
+}
+.sec2>p:nth-child(1){
+    color: black;
+    font-size: 35px;
+    margin-left: 15px;
+}
+.sec2>p:nth-child(2){
+    color: hsl(0,0%,37%);
+    font-size: 35px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.sec2{
+    background-color: rgb(238, 208, 208);
+}
+h1{
+    text-align: center;
+}
+
+.start{
+    width: 90%;
+    height: 500px;
+    margin-top: 10px;
+    display: flex;
+    margin: auto;
+    background-color: rgb(225, 229, 230);
+}
+.start>div{
+    
+    height: 498px;
+    width: 100%;
+    margin: 1px 5px 1px;
+}
+.start>div>p:nth-child(2){
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    
+    text-align: center;
+}
+.start>div>p:nth-child(3){
+    font-size: 18px;
+    font-weight: lighter;
+    color: hsl(0,0%,37%);;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    
+}
+.f1{
+    margin-left: 35px;
+   
+    color: hsl(0,0%,37%);
+    text-decoration: none;
+}
+.f2{
+    margin-left: 200px;
+ 
+}
+.f3{
+    margin-left: 150px;
+    font-size: 28px;
+}
+p{
+   
+     color: hsl(0,0%,37%);
+}
+.f1>a{
+    text-decoration: none;
+    
+}
+.f2>a{
+    text-decoration: none;
+    
+}

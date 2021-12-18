@@ -1,0 +1,177 @@
+.nav{
+    display: flex;
+   justify-content: space-between;
+   margin: 10px 50px;
+ }
+ #nav1 > a1 a2 a2{
+   
+   font-size: 25px;
+ }
+ #nav1 {
+     margin-top: 200px;
+     font-size: 25px;
+ }
+    .fetch{
+     padding: 30px 25% 0px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    width: 60%;
+     height: 50px;
+       }
+    .fetch>a{
+     margin-left: 10px;
+    color: hsl(0,0%,37%);
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+
+    .img{
+        width: 100%;
+       
+       
+            position: relative;
+            text-align: center;
+            color: black;
+          
+    }
+    .top-left {
+        position: absolute;
+        text-align: left;
+        top: 140px;
+        margin-left: 100px;
+        font-weight: lighter;
+        font-size: 40px;
+      }
+      .top {
+        position: absolute;
+        text-align: left;
+        top: 320px;
+        margin-left: 100px;
+        font-weight: lighter;
+        font-size: 20px;
+      }
+      #button{
+        position: absolute;
+      
+        top: 520px;
+       
+       
+        font-size: 20px;
+      }
+#best{
+    text-align: end;
+    font-size: 20px;
+    color: hsl(0,0%,37%);
+}
+     
+
+.scrollbar{
+   
+    height: 600px;
+    background-color:rgb(236, 229, 229) ;
+    display: flex;
+   
+}     
+.scrollbar {
+  
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+.scrollbar div {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    width: 280px;
+    height: 500px;
+   
+  }
+  
+  scrollbar div:hover {
+    background-color: #777;
+  }
+  .scrollbar>div>p{
+      width: 270px;
+     
+      font-size: 18px;
+    
+  } 
+  .scrollbar>div>button{
+    width: 270px;
+  
+    height: 40px;
+    background-color: white;
+    color: hsl(0,0%,37%);
+    font-size: 20px;
+  }
+  .derm{
+    height: 600px;
+  
+    background-color:rgb(231, 224, 228) ;
+  }
+  .derm>p{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 120px;
+  }
+  .dermflex{
+    display: flex;
+  }
+  .dermflex>div{
+    height: 300px;
+    width: 340px;
+   
+    border-radius: 10px;
+    margin: 8px;
+    background-color: white;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  }
+  .dermflex>div>p{
+           font-size: 22px;
+           color: hsl(0,0%,37%);
+           text-align: center;
+           margin-top: 4px;
+  }
+  #product{
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+  margin-left: 40%;
+  background-color: white;
+  font-size: 22px;
+  color: hsl(0,0%,37%);
+  text-align: center;
+  }
+  .footer{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    
+}
+.f1{
+    margin-left: 35px;
+   
+    color: hsl(0,0%,37%);
+    text-decoration: none;
+}
+.f2{
+    margin-left: 200px;
+ 
+}
+.f3{
+    margin-left: 150px;
+    font-size: 28px;
+}
+p{
+   
+     color: hsl(0,0%,37%);
+}
+.f1>a{
+    text-decoration: none;
+    
+}
+.f2>a{
+    text-decoration: none;
+    
+}
