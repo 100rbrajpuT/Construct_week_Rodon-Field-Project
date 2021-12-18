@@ -1,0 +1,40 @@
+#SHOP{
+    display: flex;
+    margin: 10px;
+}
+#SHOP>div{
+    margin-left: 50PX;
+    color: hsl(0,0%,37%);
+   
+   
+}
+#SHOP>div>a{
+    text-decoration: none;
+    color: hsl(0,0%,37%);
+    
+}
+#FEATURED>a{
+    text-decoration: none;
+    color: hsl(0,0%,37%);
+    
+}
+#FEATURED{
+    margin-left:165px;
+    margin-top: 25px;
+}
+#OURSTORY>a{
+    text-decoration: none;
+    color: hsl(0,0%,37%);
+}
+#OURSTORY{
+    margin-left:165px;
+    margin-top: 25px;
+}
+#PERKSPROGRAM>a{
+    text-decoration: none;
+    color: hsl(0,0%,37%);
+}
+#PERKSPROGRAM{
+    margin-left:165px;
+    margin-top: 25px;
+}

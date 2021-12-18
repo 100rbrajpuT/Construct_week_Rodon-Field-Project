@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+
+
+
+<div class="w3-bar w3-black">
+  <button class="w3-bar-item w3-button" onclick="openCity('SHOP')">SHOP</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('BEST SELLER')">BEST SELLER</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('FEATURED')">FEATURED</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('OURSTORY')">OUR STORY</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('PERKSPROGRAM')">PERKS PROGRAM</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('BECOME A CONSULTANT')">BECOME A CONSULTANT</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('BLOG')">BLOG</button>
+ 
+</div>
+
+<div id="SHOP" class="city">
+     <div>
+        <h4>SHOP BY CATEGORIES</h4>
+       <a href="#" >REGIMENS</a> <br>
+       <a href="#" >FACE SERUM</a> <br> 
+       <a href="#" >EYE LIPS LASHES</a> <br>
+       <a href="#" >FACE MASK</a> <br>
+       <a href="#" >DEMACOSMETICS</a> <br>
+       <a href="#" >HAND BODY</a> <br>
+     <a href="#" >SUN PROTECTION</a> <br>
+     <a href="#" >SKIN CARE TOOLS</a> <br>
+   </div> 
+   <div> 
+     <h4>SHOP BY CONCERN</h4>
+    <a href="#" >FINE LINE & DEEP WRINCLE</a> <br>
+    <a href="#" >DEEP FIRMING</a> <br> 
+     <a href="#" >DULL AND TIRED SKIN</a> <br>
+     <a href="#" >ACNE AND BREAKOUTS</a> <br>
+     <a href="#" >DEMACOSMETICS</a> <br>
+      <a href="#" >HAND BODY</a> <br>
+    <a href="#" >TEEN ACNE & DARK SPOTS</a> <br>
+    <a href="#" >SKIN CARE TOOLS</a> <br>
+   </div>
+  <div>
+  <h4>SHOP BY PRODUCT LINE</h4>
+  <a href="#" >REGIMENS</a> <br>
+  <a href="#" >FACE SERUM</a> <br> 
+  <a href="#" >EYE LIPS LASHES</a> <br>
+  <a href="#" >FACE MASK</a> <br>
+  <a href="#" >DEMACOSMETICS</a> <br>
+  <a href="#" >HAND BODY</a> <br>
+     <a href="#" >SUN PROTECTION</a> <br>
+    <a href="#" >SKIN CARE TOOLS</a> <br>
+  </div>
+
+  
+ 
+</div>
+
+<div id="FEATURED" class="city" style="display:none">
+  <a href="#" >SPECIAL OFFER</a> <br>
+  <a href="#" >NEW TOTAL RF SERUM</a> <br> 
+  <a href="#" >SPOTLESS FOR TEEN</a> <br>
+  <a href="#" >SEFT CARE ESSENTIALS</a> <br> 
+</div>
+
+<div id="OURSTORY" class="city" style="display:none">
+  <h5>SHOP BY CATEGORIES</h5>
+  <a href="#" >REGIMENS</a> <br>
+  <a href="#" >FACE SERUM</a> <br> 
+  <a href="#" >EYE LIPS LASHES</a> <br>
+  <a href="#" >FACE MASK</a> <br>
+  <a href="#" >DEMACOSMETICS</a> <br>
+  <a href="#" >HAND BODY</a> <br>
+  <a href="#" >SUN PROTECTION</a> <br>
+  <a href="#" >SKIN CARE TOOLS</a> <br>
+</div>
+  
+<div id="PERKSPROGRAM" class="city" style="display:none">
+  <h5>SHOP BY CATEGORIES</h5>
+  <a href="#" >REGIMENS</a> <br>
+  <a href="#" >FACE SERUM</a> <br> 
+  <a href="#" >EYE LIPS LASHES</a> <br>
+  <a href="#" >FACE MASK</a> <br>
+  <a href="#" >DEMACOSMETICS</a> <br>
+  <a href="#" >HAND BODY</a> <br>
+  <a href="#" >SUN PROTECTION</a> <br>
+  <a href="#" >SKIN CARE TOOLS</a> <br>
+</div>
+<div id="SHOP" class="city" style="display:none">
+  <h5>SHOP BY CATEGORIES</h5>
+  <a href="#" >REGIMENS</a> <br>
+  <a href="#" >FACE SERUM</a> <br> 
+  <a href="#" >EYE LIPS LASHES</a> <br>
+  <a href="#" >FACE MASK</a> <br>
+  <a href="#" >DEMACOSMETICS</a> <br>
+  <a href="#" >HAND BODY</a> <br>
+  <a href="#" >SUN PROTECTION</a> <br>
+  <a href="#" >SKIN CARE TOOLS</a> <br>
+</div>
+
+<script>
+function openCity(cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(cityName).style.display = "block";  
+}
+</script>
+
+</body>
+</html>
