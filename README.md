@@ -1,6 +1,11 @@
 # Construct_week_Rodon-Field-Project
 <h3>Road and Field is American E-commerse Website </h3>
 <p>For this Project i used HTML,CSS & JS as Techstack</p>
+<h3>Features</h3>
+<p>Grid display of products <br>
+Search functionality of products.<br>
+User authentication <br>
+</p>
 This was a solo project.
 
 <br>
